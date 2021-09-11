@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 1440px;
+}
+
+/* .home-link {
+    margin-left: 5rem;
+} */
+
+.home-link img{
+    width: 84px;
+    height: 90px;
+}
+
+.navbar-division-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    margin-right: 4rem;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #1B1F25;
+}
+
+.nav-links a:hover {
+    color: #750404;
+}
+
+/* .nav-search {
+    margin-right: 8.1rem;
+} */
+
+.nav-search input {
+    width: 181px;
+    height: 40px;
+    border: 1px solid #1B1F25;
+    border-radius: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #1B1F25;
+}
+
+.nav-search-btn {
+    border: none;
+    background: none;
+    position: absolute;
+    left: 96.15%;
+    right: 5.6%;
+    top: 36.52%;
+}
+
+.nav-search-btn img {
+    width: 18px;
+    height: 18px;
+}
+
+.carousel-item {
+    height: 514px;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.product-div {
+    margin-top: 8.7rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-bottom: 22px;
+}
+
+.product-card h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 22px;
+
+    color: #1B1F25;
+}
+
+.product-card p {
+    width: 220px;
+    height: 37px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #750404;
+}
+
+.product-card button {
+    width: 120px;
+    height: 30px;    
+    background: #1B1F25;
+    border: none;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.section-divider {
+    width: 774px;
+    height: 1px;
+    background: #C4C4C4;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8.1rem;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 123px;
+    margin-right: 123px;
+    margin-top: 9rem;
+}
+
+.description-text {
+    margin-right: 30rem;
+}
+
+.description-text-contrary {
+    margin-left: 30rem;
+}
+.description img {
+    width: 400px;
+    height: 386.37px;
+}
+
+.description h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #1B1F25;
+}
+
+.description p {
+    width: 454px;
+    height: 112px;
+    margin-top: 39px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #750404;
+}
+
+.description button {
+    width: 120px;
+    height: 30px;    
+    background: #1B1F25;
+    border: none;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+
+footer p {
+    margin-top: 2rem;
+    width: 323px;
+    height: 21px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.product-card button:hover {
+    background: #750404;
+    color: #FFFFFF;
+}
+
+.description button:hover {
+    background: #750404;
+    color: #FFFFFF;
+}
+
